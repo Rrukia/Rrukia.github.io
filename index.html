@@ -55,6 +55,16 @@
         .modal h1:hover {
             transform: scale(1.1);
         }
+
+        @media (max-width: 768px) {
+            .modal {
+                width: 80vw;
+                height: calc(80vw * 1080 / 1920);
+            }
+            .modal h1 a {
+                font-size: 3vw;
+            }
+        }
     </style>
 </head>
 <body>
